@@ -1,0 +1,46 @@
+html {
+font-family: 'Quicksand', sans-serif;
+background-color: #FFF9BF;
+color: #636363;
+font-weight: lighter;
+}
+
+h1 {
+font-family: 'Zeyada', cursive;
+font-weight: lighter;
+}
+
+.bird {
+  display: center;
+  width: 300px;
+}
+
+.icons {
+  width: 50px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card-body {
+  padding:.2rem 1rem;
+}
+
+.card-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card-head {
+  position: relative;
+}
