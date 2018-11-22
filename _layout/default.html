@@ -8,8 +8,20 @@
     <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
   </head>
   <body>
-    
-    {% include nav.html %}
+    <header class="grid">
+      {% include nav.html %}
+    </header>
+
+    <main>
+      {{content}}
+    </main>
+
+    <footer>
+      <div class="">
+        <a href="https://www.instagram.com/tamarakazaniwskyart/"><img class="icons pad-t-1-2" src="images/instagram.svg" alt="Instagram"></a>
+        <p class="milli">tamarakazaniwsky@gmail.com</p>
+      </div>
+    </footer>
 
   </body>
 </html>
