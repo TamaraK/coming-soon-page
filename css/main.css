@@ -29,9 +29,7 @@ font-weight: lighter;
 
 .img-flex {
   display: block;
-  width: 50%;
-
-}
+  max-width: 500px;}
 
 .card-body {
   padding:.2rem;
