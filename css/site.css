@@ -1,7 +1,7 @@
 ---
 ---
 
-{% incude_relative type.css %}
-{% incude_relative modules.css %}
-{% incude_relative grid.css %}
-{% incude_relative main.css %}
+{% include_relative type.css %}
+{% include_relative modules.css %}
+{% include_relative grid.css %}
+{% include_relative main.css %}
