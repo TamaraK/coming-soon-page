@@ -1,0 +1,106 @@
+html {
+font-family: 'Quicksand', sans-serif;
+background-color: #F9F5D9;
+color: #636363;
+font-weight: lighter;
+}
+
+h1 {
+font-family: 'Kodchasan', sans-serif;
+font-weight: lighter;
+}
+
+.bird {
+  display: center;
+  width: 300px;
+}
+
+.icons {
+  width: 50px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card:hover {
+  background-color: #515050;
+}
+
+.img-flex {
+  display: block;
+  max-width: 500px;}
+
+.card-body {
+  padding:.2rem;
+}
+
+.card-title {
+  color: #515050;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.container {
+  position: relative;
+}
+
+footer {
+  text-align: center;
+}
+
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  display: none;
+}
+
+.main-card-1:hover img,
+.main-card-2:hover img,
+.main-card-3:hover img,
+.main-card-4:hover img,
+.main-card-5:hover img,
+.main-card-6:hover img {
+  opacity: .8
+}
+
+
+.main-card-1:hover .card-1 {
+  display: inline-block;
+}
+
+.main-card-2:hover .card-2 {
+  display: inline-block;
+}
+
+.main-card-3:hover .card-3 {
+  display: inline-block;
+}
+
+.main-card-4:hover .card-4 {
+  display: inline-block;
+}
+
+.main-card-5:hover .card-5 {
+  display: inline-block;
+}
+
+.main-card-6:hover .card-6 {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #515050;
+}
+
+a:hover {
+  text-decoration: underline;
+}
